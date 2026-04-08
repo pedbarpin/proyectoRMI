@@ -1,0 +1,14 @@
+# Archivos compilados
+*.class
+
+# Logs
+*.log
+
+# Editor
+.idea/
+.vscode/
+*.iml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

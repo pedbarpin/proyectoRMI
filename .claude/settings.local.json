@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la *.jar)",
+      "Bash(javac:*)",
+      "Bash(java servidor.ServidorBanco)",
+      "Bash(lsof -ti:54321)",
+      "Bash(xargs kill:*)",
+      "Bash(java:*)",
+      "Bash(curl:*)",
+      "Bash(service postgresql:*)",
+      "Bash(pg_isready)",
+      "Bash(sudo:*)",
+      "Bash(su:*)",
+      "Bash(grep -v \"^$\")",
+      "Bash(cat /etc/postgresql/*/main/pg_hba.conf)",
+      "Bash(PGPASSWORD=postgres psql -U postgres -h localhost -c \"CREATE DATABASE banco;\")",
+      "Bash(find /etc/postgresql -name pg_hba.conf -exec cat {} \\\\;)",
+      "Bash(chmod +x:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)"
+    ]
+  }
+}
