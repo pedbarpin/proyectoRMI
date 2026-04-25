@@ -20,7 +20,6 @@ public class ServidorBanco {
 
     /**
      * Método principal que inicia el servidor bancario.
-     * @param args Argumentos de línea de comandos (no utilizados)
      */
     public static void main(String[] args) {
         System.out.println("=== Iniciando Servidor Bancario Distribuido ===");
